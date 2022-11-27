@@ -1,0 +1,127 @@
+ h1{
+    margin-top: 20px;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.admdiv{
+    width: 400px;
+    height: 460px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 150px;
+    border-radius: 10px;
+    border: solid rgba(122, 114, 114, 0.002);
+    box-shadow: 0px 8px 16px 0px rgba( 6,5,6,5);
+    padding: 50px 50px 50px 50px;
+    padding-top: 20px;
+    background-color:rgba(107, 117, 105, 0.516);
+    
+  
+}
+
+#adminregi{
+
+
+    width:500px;
+    height:400px;
+    margin: auto;
+}
+
+
+
+#adlbl label{
+ display: block;
+ margin-top: 45px;
+ margin-left: 20px;
+ width:100px;
+}
+#lbldiv{
+    margin-top: 80px;
+    height:250px;
+}
+ input{
+  margin-left:200px;
+  margin-top: 20px;
+    display:block;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    width:200px;
+    height:25px;
+}
+#name{
+    margin-top: -300px;
+
+}
+#adin{
+    width:250px;
+    height:250px;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+
+
+#sbtn{
+    margin-left:10px;
+    margin-top: 40px;
+    width:120px;
+    height:35px;
+    border-color: black;
+    border-radius: 5px;
+    background-color: black;
+    color:white
+}
+
+.have{
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+body{
+    
+    background: url('../image/top-view-circular-food-frame.jpg');
+
+    background-repeat: no-repeat;
+    background-size: 1500px 1000px;
+    z-index: -1;
+    opacity: 30;
+    
+}
+.message2{
+    position: sticky;
+   margin-top:80px;
+    margin-left: auto;
+    margin-right: auto;
+width:auto;
+    background-color: rgb(224, 224, 224);
+    padding:2rem;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10000;
+    gap:1.5rem;
+ }
+ 
+ .message2 span{
+    font-size: 1.2rem;
+  
+    margin: auto;
+    margin-left: 100px;
+
+    
+ }
+ 
+ .message2 .RICON{
+    cursor: pointer;
+    color:red;
+    font-size: 1.2rem;
+    font-style: normal;
+    margin: auto;
+    margin-left: 900px;
+ }
+ 
+ .message2 .RICON:hover{
+    transform: rotate(90deg);
+ }
+  

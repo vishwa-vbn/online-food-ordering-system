@@ -1,0 +1,66 @@
+#greet
+{
+    margin-top: 10px;
+    margin-left: 50px;
+
+}
+
+#bill_logo
+{
+    width:120px;
+    height:120px;
+    margin-left:140px;
+}
+#cus_bill_div{
+    margin-top: 200px;
+}
+
+#cus_child{
+    width:400px;
+    height:350px;
+    margin: auto;
+    border: 1px solid rgb(196, 193, 193);
+    border-radius: 3px;
+}
+#bi_no
+{
+    margin-top: 5px;
+    margin-left: 50px;
+}
+#cus_no{
+    margin-top: 5px;
+    margin-left: 50px;
+
+}
+#billtab
+{
+    margin: auto;
+    margin-top: 10px;
+
+}
+
+table{
+    border-collapse: collapse;
+    border: 1px solid black;
+    width:300px;
+}
+
+tr td {
+    border: 1px solid black;
+
+}
+th{
+    border: 1px solid black;
+    
+}
+
+#printcus_btn{
+    margin-top: 40px;
+    height:25px;
+    margin-left: 310px;
+    color: rgba(19, 18, 18, 0.822);
+    background-color: rgb(123, 152, 247);
+    border-radius: 5px;
+    border: 1px solid rgba(148, 145, 145, 0.877);
+    width:80px;
+}

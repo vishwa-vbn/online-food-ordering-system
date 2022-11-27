@@ -1,0 +1,214 @@
+h1{
+    color:black;
+   font-size:35px;
+   margin-top: 60px;
+position: absolute;
+margin-left: 100px;
+margin-bottom: 5px;
+}
+
+.invent-box{
+    width: 1200px;
+    height: 380px;
+    margin-left:auto;
+    margin-right: auto;
+    background-image: linear-gradient(to right, #f5f2f7, #b7b3b9, #939193, #dcdcdd, #f9f9f9);
+    display: flex;
+    justify-items: center;
+    border-radius: 10px;
+    box-shadow: 0px 8px 8px 0px rgba(0, 1, 0, 0.548);
+
+    
+}
+.invent{
+position: relative;
+margin-top:-70px;
+
+}
+input{
+    display: block;
+    width: 600px;   
+    height: 40px;
+    border-radius: 3px;
+    margin:  0px 10px 10px 10px;
+   
+}
+#inventory{
+    text-align: center;
+    margin-top: 100px;
+}
+#finput{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#fqnty
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+#add{
+    width:150px;
+    height:30px;
+    background-color: black;
+    color:white;
+    margin:auto;
+    height: 32px;
+    margin-top: 10px;
+    border-radius: 3px;
+
+    border:none;
+}
+  #delete{  
+    width:150px;
+    height:30px;
+    background-color: black;
+    color:white;
+    margin:auto;
+    height: 32px;
+    margin-top: 10px;
+border-radius: 3px;
+    border:none;
+  }  
+  
+table{
+
+    margin-top: 40px;
+    border-collapse: collapse;
+    /* border:1.5px solid black; */
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    -moz-border-radius: 5px !important;
+    border: none !important;
+    
+    
+   
+
+
+}
+
+#gbuttons
+{
+    display: flex;
+    width:800px;
+}
+
+#itembox
+{
+text-align: center;
+}
+
+
+
+
+
+th,td{
+    border:1px solid black;
+    width:170px;
+    height: 45px;
+    text-justify: auto;
+    text-align: center;
+   
+}
+th{
+    color:rgb(255, 255, 255);
+    font-size: 18px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+    height: 50px;
+    font-weight: 400;
+
+}
+
+#iform
+{
+    margin: auto;
+}
+
+
+ 
+.reordersec{
+    min-height: 100vh;
+    background-color: rgba(0,0,0,.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:2rem;
+    /* overflow-y: scroll; */
+    position: fixed;
+    top:0; left:0; 
+    z-index: 1200;
+    width: 100%;
+ }
+ 
+ .reordersec form{
+    width: 25rem;
+    padding:2rem;
+    text-align: center;
+    border-radius: .5rem;
+    background-color: white;
+ }
+ 
+ 
+ 
+ .reordersec form input{
+    margin-top: 9px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:5px;
+    font-size: 15px;
+    color:black;
+    width:250px;
+ }
+ 
+ #can_btn{
+background-color: rgba(239, 87, 87, 0.723);
+    width:150px;
+    height:30px;
+ }
+ #upitembtn
+ {
+    width:150px;
+    height:30px;
+    background-color: black;
+    color: white;
+ }
+ 
+ 
+ .message2{
+    position: sticky;
+   margin-top:80px;
+    margin-left: auto;
+    margin-right: auto;
+width:auto;
+    background-color: rgb(224, 224, 224);
+    padding:2rem;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10000;
+    gap:1.5rem;
+ }
+ 
+ .message2 span{
+    font-size: 1.2rem;
+  
+    margin: auto;
+    margin-left: 100px;
+
+    
+ }
+ 
+ .message2 .RICON{
+    cursor: pointer;
+    color:red;
+    font-size: 1.2rem;
+    font-style: normal;
+    /* margin: auto;
+    margin-left: -400px; */
+ }
+ 
+ .message2 .RICON:hover{
+    transform: rotate(90deg);
+ }
+  

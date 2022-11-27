@@ -1,0 +1,286 @@
+.regdiv{
+    align-content: center;
+    margin-left: auto;
+    margin-right: auto;
+
+    padding:50px 50px 50px 50px;
+   margin-top: 130px;
+   margin-bottom: 30px;
+    background-color:rgba(145, 140, 224, 0.516);
+    width:400px;
+    height:550px;
+    border-radius: 10px;
+    padding-top: 20px;
+    z-index:-1; 
+    /* margin-left:400px; */
+
+  border: solid rgba(122, 114, 114, 0.002);
+  box-shadow: 0px 8px 16px 0px rgba( 6,5,6,5);
+}
+section{
+    width:auto;
+    height:1500px;
+    margin-top:0px;
+
+    
+}
+
+input{
+
+    display:block;
+    margin: -1px 0px 0px 200px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    width:200px;
+    height:25px;
+    
+    
+
+
+}
+
+
+
+.footer{
+    background-color: var(--light-bg);
+ }
+ 
+ .footer .box-container{
+    max-width: 1200px;
+    margin:0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap:3rem;
+ }
+ 
+ .footer .box-container .box h3{
+    text-transform: uppercase;
+    color:var(--black);
+    font-size: 2rem;
+    padding-bottom: 2rem;
+ }
+ 
+ .footer .box-container .box p,
+ .footer .box-container .box a{
+    display: block;
+    font-size: 1.7rem;
+    color:var(--light-color);
+    padding:1rem 0;
+ }
+ 
+ .footer .box-container .box p i,
+ .footer .box-container .box a i{
+    color:var(--purple);
+    padding-right: .5rem;
+ }
+ 
+ .footer .box-container .box a:hover{
+    color:var(--purple);
+    text-decoration: underline;
+ }
+ 
+ .footer .credit{
+    text-align: center;
+    font-size: 2rem;
+    color:var(--light-color);
+    border-top: var(--border);
+    margin-top: 2.5rem;
+    padding-top: 2.5rem;
+ }
+ 
+ .footer .credit span{
+    color:var(--purple);
+ }
+ 
+#idate
+{
+    margin-top: 15px;
+    width:200px;
+    height:25px;
+
+
+
+}
+select{
+    position: absolute;
+    width:100px;
+    height:30px;
+    margin-bottom: 3px;
+    margin-left: 200px;
+    border-radius: 5px;
+    margin-top: -15px;
+    border: 2px solid black;
+}
+
+.regdiv label{
+     font-family:Verdana, Geneva, Tahoma, sans-serif;
+     font-weight: 10px;
+    /* padding-top:20px; */
+    margin-top: 20px;
+    display:block;
+    position: absolute;
+    margin-left: 10px;
+    color:rgb(2, 9, 60);
+}
+#gen{
+    margin-top:-10px;
+}
+#sbtn{
+ margin-top: 20px;
+    margin-left:10px;
+    width:120px;
+    height:35px;
+    border-color: black;
+    border-radius: 5px;
+    background-color: black;
+    color:white
+
+}
+h1{
+   
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 1px;
+    
+
+
+}
+
+ body{
+    
+    background: url('../image/top-view-circular-food-frame.jpg');
+
+    background-repeat: no-repeat;
+    background-size:cover;
+    z-index: -1;
+    opacity: 30;
+    margin-top: 1px;
+    width:auto;
+    height: auto;
+    
+}
+#usertype{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 10px;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.have{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 110px;
+}
+.message{
+    display: flex;
+     max-width:900px;
+     height: 100px;
+     background-color: rgb(242, 238, 238);
+    border-radius: 10px;
+     height:80px;
+     z-index:99;
+     margin-left:auto;
+     margin-right: auto;
+     margin-top:auto;
+     margin-bottom: auto;
+  }
+  #mess_div
+ 
+ {
+     position:relative;
+     margin-top: -400px;
+    
+    width:auto;
+     height:auto;
+     margin-left: auto;
+     margin-right: auto;
+     z-index: 99;
+ }
+  
+  #m_head{
+     font-size: 23px;
+     color:rgb(12, 12, 12);
+     margin-top:auto;
+     margin-bottom: auto;
+     margin-left: auto;
+     margin-right: auto;
+     width:auto;
+     height:auto;
+     text-align: center;
+  }
+  #m_head h3{
+    margin: auto;
+
+  }
+
+  
+  
+  
+  .message{
+    position: sticky;
+   margin-top:0px;
+    margin-left: auto;
+    margin-right: auto;
+width:auto;
+    background-color: white;
+    padding:2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10000;
+    gap: 1.5rem;
+ }
+ 
+ .message span{
+    font-size: 1rem;
+    
+ }
+ 
+ .message RICON{
+    cursor: pointer;
+    color:red;
+    font-size: 2.5rem;
+ }
+ 
+ /* .message i:hover{
+    transform: rotate(90deg);
+ }
+  */
+
+ #regsec{
+    height:auto;
+margin: auto;    
+ }
+
+
+ .message{
+    position: sticky;
+   margin-top:0px;
+    margin-left: auto;
+    margin-right: auto;
+width:auto;
+    background-color: white;
+    padding:2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10000;
+    gap:1.5rem;
+ }
+ 
+ .message span{
+    font-size: 1rem;
+    
+ }
+ 
+ .message RICON{
+    cursor: pointer;
+    color:red;
+    font-size: 2.5rem;
+ }
+ 
+ 

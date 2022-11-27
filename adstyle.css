@@ -1,0 +1,130 @@
+
+ #navbar{
+    /* background-image: linear-gradient(to right, #dcacf3, #b794c9, #947ca0, #887a91, #847a88);
+     */
+
+     background-image: radial-gradient( circle farthest-corner at 6.7% 22.9%,  rgba(53,62,75,1) 0%, rgba(187,187,187,1) 96.6% );
+    background-repeat: no-repeat;
+     position: fixed;
+     top: 0;
+     width: 100%;
+     margin-left: -7px;
+overflow: hidden;
+    height:60px;
+    border-radius: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(39, 37, 37, 0.806);
+
+
+ z-index:99;
+ 
+
+}
+#navitems{
+display: flex;
+position: absolute;
+    justify-content: center;
+    text-align: center;
+    margin:10px 0px 0px 415px;
+}
+li{
+  
+
+    padding:9px 28px 18px 40px;
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+     font-size: 18px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(255, 255, 255);
+    font-weight: 500; 
+ }
+
+ li a:hover{
+
+    color:rgb(13, 14, 13);
+
+ }
+#logo{
+
+    display: flex;
+    position: absolute;
+    margin: 2.5px 50px 50px 3px;
+    width:55px;
+    height:55px;
+    border-radius: 120px;
+}
+#box-dash
+{
+   margin-top: 200px;
+
+   width:auto;
+   height: auto;
+   margin-top: 200px;
+   margin-bottom: 200px;
+   display: flex;
+   flex-wrap: wrap;
+}
+#dashbox{
+   width: 250px;
+   height:150px;
+   background-image: linear-gradient(to top, #bdc2e8 0%, #bdc2e8 1%, #e6dee9 100%);
+   margin: 20px 50px 20px 70px;
+   border-radius: 5px;
+   border:2px solid rgba(0, 0, 0, 0.164);
+   box-shadow: 0px 8px 10px 0px rgba(110, 108, 108, 0.831);
+}
+#dashbox p{
+   margin-top: 10px;
+   text-align: center;
+   font-size: 25px;
+}
+
+#dashbox h3
+{
+   text-align: center;
+   margin-top: 40px;
+   font-size: 30px;
+   color: rgb(0, 0, 0);
+   margin-bottom: 10px;
+}
+
+body{
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+.message2{
+   position: sticky;
+  margin-top:80px;
+   margin-left: auto;
+   margin-right: auto;
+width:auto;
+   background-color: rgb(224, 224, 224);
+   padding:2rem;
+   display: flex;
+   justify-content: space-between;
+   z-index: 10000;
+   gap:1.5rem;
+}
+
+.message2 span{
+   font-size: 1.2rem;
+ 
+   margin: auto;
+   margin-left: 100px;
+
+   
+}
+
+.message2 .RICON{
+   cursor: pointer;
+   color:red;
+   font-size: 1.2rem;
+   font-style: normal;
+   margin: auto;
+   margin-left: 1000px;
+}
+
+.message2 .RICON:hover{
+   transform: rotate(90deg);
+}
+ 

@@ -1,0 +1,157 @@
+.supdiv1{
+    padding:50px 50px 50px 50px;
+    /* margin:200px 200px 200px 200px; */
+    background-image: linear-gradient(to right, #f5f2f7, #bebebe, #a8a6a6, #dcdcdd, #f9f9f9);
+background-repeat: no-repeat;
+     width:1200px;
+     height:500px;
+     border-radius: 10px;
+     padding-top: 100px;
+     z-index:-1; 
+     margin-left:auto;
+     margin-right: auto;
+     margin-top: 60px;
+ 
+   border: solid grey;
+   box-shadow: 0px 8px 16px 0px rgba(2, 0, 2, 0.512)
+}
+#sec1{
+    width:1500px;
+    height:1500px;
+
+    
+    justify-content: center;
+    
+}
+
+#searchdiv{
+    display: flex;
+}
+
+#updatemail{
+
+    margin-left: 675px;
+    margin-top: 50px;
+    width:250px;
+
+}
+#srclbl{
+    margin-left: 250px;
+}
+#sbtn1{
+    width:150px;
+    margin-left: 630px;
+
+}
+#sbtn2{
+
+    margin-left: 730px;
+    width:150px;
+}
+#sbtn3{
+    margin-left: 730px;
+    width:150px;
+    margin-top: 10px;
+}
+h1{
+    margin-top: -85px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+
+}
+input{
+
+    display:block;
+    margin-left: 450px;
+    margin-top: 40px;
+    justify-content: center;
+    text-align: center;
+    border-radius: 5px;
+    position: relative;
+    width:500px;
+    height:35px;
+    color:black;
+}
+label{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+   display:block;
+   position: absolute;
+   color:black;
+   margin-left:100px;
+   margin-top: 60px;
+   
+ 
+}
+
+
+#sel{
+    margin-top: -10px;
+    margin-left: 320px;
+   width: 150px;
+   height: 35px;
+   text-align: center;
+   border-radius: 10px;
+   background-color: rgb(211, 211, 193);
+   color:black;
+
+}
+
+#search
+{
+    margin-top:200px;
+    width:auto;
+    /* height:300px; */
+  
+}
+
+
+#supform{
+    width:1000px;
+    margin: auto;
+}
+
+
+.message{
+    position:absolute;
+   
+    max-width: 700px;
+    height: 10px;
+    background-color: rgb(0, 0, 0);
+   border-radius: 10px;
+    padding:2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10000;
+    gap:1.5rem;
+    margin-left: 600px;
+    margin-top:200px;
+ }
+ 
+ .message span{
+    font-size: 15px;
+    color:rgb(233, 73, 73);
+ }
+ 
+ .message i{
+    cursor: pointer;
+    color:var(--red);
+    font-size: 2.5rem;
+ }
+ 
+ .message i:hover{
+    transform: rotate(90deg);
+ }
+ 
+ .message button{
+    background-color: black;
+    color:red;
+    border-radius: 50px;
+    font-size: 20px;
+ }
+
+
+
+

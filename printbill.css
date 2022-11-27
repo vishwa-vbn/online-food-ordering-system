@@ -1,0 +1,94 @@
+@page
+{
+  size:A4;
+  margin: 0;
+}
+#print-btn
+{
+  display: none;
+  visibility: none;
+}
+
+
+th,td{
+  border:1px solid black;
+  width:260px;
+  height: 45px;
+  text-justify: auto;
+  text-align: center;
+ 
+}
+th{
+  background-color: rgba(112, 109, 109, 0.678);
+  color: white;
+}
+
+table {
+  border-collapse: collapse;
+  margin: auto;
+  margin-top: 5px;
+}
+#printdiv
+{
+  width:350px;
+  height:410px;
+  background-color:whitesmoke;
+  border:1px solid black;
+  margin: auto;
+}
+#bdate{
+  display: flex;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+#bdate label{
+  margin-top: 16px;
+}
+#bdate p{
+  margin-left: 10px;
+}
+#binvo
+{
+  margin: auto;
+  font-size: 20px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#binvo p{
+
+  margin-top:30px;
+  margin-left:125px;
+}
+.pbtndiv
+{
+  margin-top: 25px;
+  float: right;
+  margin-right: 10px;
+}
+
+#print_btn{
+  width:80px;
+  height:25px;
+  border:1px solid gray;
+  border-radius: 3px;
+  background-color: rgba(241, 56, 56, 0.896);
+}
+
+#printsec
+{
+  margin-top: 100px;
+}
+#sup_details p
+{
+  margin-left: 10px;
+  
+
+}
+#sup_details
+{
+  display: flex;
+  
+}
+#sup_details label{
+  margin-top: 15px;
+  margin-left: 10px;
+}

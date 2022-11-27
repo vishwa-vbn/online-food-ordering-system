@@ -1,0 +1,142 @@
+.loginform{
+    /* margin-top: 100px;
+  margin-left: 500px; */
+  margin: auto;
+    width:300px;
+  height:400px;
+  
+text-align: center;
+    background-color: rgb(37, 33, 33);
+    border-radius: 10px;
+    border-color: solid rgba(128, 128, 128, 0.116);
+    border: solid  1px rgb(146, 235, 253);
+}
+.loginform2{
+    /* margin-top: 100px;
+  margin-left: 500px; */
+  margin: auto;
+    width:350px;
+  height:500px;
+  
+text-align: center;
+    background-color: rgb(37, 33, 33);
+    border-radius: 10px;
+    border-color: solid rgba(128, 128, 128, 0.116);
+    border: solid  1px rgb(146, 235, 253);
+}
+.loginform2 input{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+#doblbl{
+
+    color:white;
+    font-size: 13px;
+    margin-bottom: -10px;
+}
+
+.logbody{
+   
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ background:url(../image/indian-condiments-with-copy-space-view.jpg); 
+ background-repeat: no-repeat;
+ background-size: cover;
+ 
+}
+.loginput1{
+     margin-top: 20px;
+     border:solid rgb(226, 217, 217);
+     border-radius: 10px;
+}
+input{
+
+    border:solid rgb(222, 216, 216);
+    border-radius: 10px;
+ width:200px;
+ height: 25px;
+ justify-content: center;
+ margin: 5px 10px 10px 10px;
+ text-align: center;
+ background-color:rgb(255, 255, 255) ;
+
+}
+
+.loginbtn{
+    width: 100px;
+    height: 30px;
+    background-color: #2196F3;
+    color:rgb(18, 17, 17);
+    font-weight: 600px;
+    border: none;
+    color:white;
+
+}
+
+.regp a{
+    /* margin-top: 5px; */
+    font-size: 12px;
+    color:white;
+    /* text-align: left */
+
+
+}
+ a{
+    color:rgb(140, 218, 244);
+    text-decoration: dotted;
+    
+}
+.logoimg{
+
+    width:150px;
+    height:150px;
+    margin:20px 5px 5px 5px;
+    border: 2px solid rgb(140, 218, 244);
+    border-radius: 100px;
+}
+.logsec{
+    width:auto;
+    height:auto;
+    display: flex;
+    /* justify-content: center; */
+
+    margin-top: 100px;
+
+}
+.regr{
+    margin-top:-11px;
+    font-size: 12px;
+    color:white;
+    /* text-align: left */
+
+
+}
+
+.message{
+    position: sticky;
+   margin-top:0px;
+    margin-left: auto;
+    margin-right: auto;
+width:auto;
+    background-color: white;
+    padding:2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 10000;
+    gap:1.5rem;
+ }
+ 
+ .message span{
+    font-size: 1rem;
+    
+ }
+ 
+ .message RICON{
+    cursor: pointer;
+    color:red;
+    font-size: 2.5rem;
+ }
+ 

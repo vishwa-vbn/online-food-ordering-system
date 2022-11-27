@@ -1,0 +1,145 @@
+input{
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+ width:200px;
+ height: 25px;
+ justify-content: center;
+ margin: 5px 10px 10px 10px;
+ text-align: center;
+ background-color:rgba(255, 255, 255, 0.856) ;
+
+}
+
+.adloginform{
+    margin: auto;
+    width:300px;
+  height:400px;
+  
+text-align: center;
+    background-color: rgb(235, 231, 231);
+    border-radius: 10px;
+    border-color: solid rgba(128, 128, 128, 0.116);
+    border: solid  2px rgba(62, 120, 170, 0.914);
+    box-shadow: 0px 8px 16px 0px rgba(59, 58, 58, 0.856);
+
+}
+
+
+.up-adloginform
+{ margin: auto;
+    width:400px;
+  height:500px;
+  
+text-align: center;
+    background-color: rgb(235, 231, 231);
+    border-radius: 10px;
+    border-color: solid rgba(128, 128, 128, 0.116);
+    border: solid  2px rgba(62, 120, 170, 0.914);
+    box-shadow: 0px 8px 16px 0px rgba(59, 58, 58, 0.856);
+
+}
+
+.up-adloginform input{
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:250px;
+    border-radius: 5px;
+}
+.adloginbtn{
+    width: 100px;
+    height: 30px;
+    background-color: #2196F3;
+    color:rgb(18, 17, 17);
+    font-weight: 600px;
+    border: none;
+    color:white;
+
+}
+
+.adloginput1{
+    margin-top: 20px;
+     border: 1px solid rgb(2, 2, 2);
+     border-radius: 10px;
+}
+.up-adloginput2{
+    margin-top: 20px;
+     border: 1px solid rgb(2, 2, 2);
+     border-radius: 10px;
+}
+
+.adregp a{
+    font-size: 12px;
+    color:rgb(0, 0, 0);
+}
+
+a{
+    color:rgb(241, 6, 6);
+    text-decoration: dotted;
+}
+.adlogsec{
+    width:auto;
+    height:auto;
+    display: flex;
+    margin-top: 100px;
+}
+
+.adregr{
+    margin-top:-11px;
+    font-size: 12px;
+    color:rgb(12, 12, 12);
+}
+
+.adlogoimg{
+    width:150px;
+    height:150px;
+    margin:20px 5px 5px 5px;
+    border: 2px solid rgb(8, 8, 8);
+    border-radius: 100px;
+}
+.message2{
+    position: sticky;
+   margin-top:80px;
+    margin-left: auto;
+    margin-right: auto;
+width:100%;
+    background-color: rgb(224, 224, 224);
+    padding:2rem;
+    display: flex;
+    justify-content: space-between;
+    z-index: 10000;
+    gap:1.5rem;
+ }
+ 
+ .message2 span{
+    font-size: 1.2rem;
+  
+    margin: auto;
+    margin-left: 100px;
+
+    
+ }
+ 
+ .message2 .RICON{
+    cursor: pointer;
+    color:red;
+    font-size: 1.2rem;
+    font-style: normal;
+    margin: auto;
+    margin-left: 900px;
+ }
+ 
+ .message2 .RICON:hover{
+    transform: rotate(90deg);
+ }
+  
+  
+body{
+    background:url(../image/pexels-mareefe-678414.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 1;
+
+}
